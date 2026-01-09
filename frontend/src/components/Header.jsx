@@ -1,5 +1,10 @@
 import './header.css'
-export function Header(){
+export function Header({cart}){
+    let totalQuatity = 0;
+    cart.forEach((items) => {
+        totalQuatity+=items.Quantity
+    });
+
     return (
         <>
             <div className="header">
