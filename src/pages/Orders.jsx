@@ -1,5 +1,4 @@
-
-import './CheckoutHeader.css'
+import './header.css'
 import './Orders.css'
 
 export function Orders(){
